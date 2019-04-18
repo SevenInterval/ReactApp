@@ -4,9 +4,9 @@ import axios from 'axios';
 
 const Todo = props => (
     <tr>
-        <td>{props.todo.todo_description}</td>
-        <td>{props.todo.todo_responsible}</td>
-        <td>{props.todo.todo_priority}</td>
+        <td>{props.todo.description}</td>
+        <td>{props.todo.responsible}</td>
+        <td>{props.todo.priority}</td>
         <td>
             <Link to={"/edit/"+props.todo._id}>Edit</Link>
         </td>

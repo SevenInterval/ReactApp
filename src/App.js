@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import './App.css';
+import './css/App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from './logo.svg';
+import logo from './img/logo.svg';
 import TodoList from '../src/components/TodoList';
 import EditTodo from '../src/components/EditTodo';
 import CreateTodo from '../src/components/CreateTodo';
