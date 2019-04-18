@@ -15,7 +15,7 @@ class App extends Component {
       <Router>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="http://localhost:3000/">
+            <a className="navbar-brand" href="http://localhost:3000/">
               <img src={logo} width="30" height="30" alt="TodoList.com" />
             </a>
             <Link to="/" className="navbar-brand">React Todo App</Link>
